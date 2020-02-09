@@ -19,12 +19,19 @@
 ## 相关资料
 * [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development "hololens官方文档")
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html "markdown基础语法")
-* [hololen模拟器初步尝试案例 2020/02/09](https://blog.csdn.net/Zheye666/article/details/82384085 "hololen模拟器初步尝试")
+* [2020/02/09 hololen模拟器初步尝试案例](https://blog.csdn.net/Zheye666/article/details/82384085 "hololen模拟器初步尝试")
 
 ## 问题与解决
-* HoloLens Emulator（第一代）安装报错/无法安装 
+* 2020/02/09 HoloLens Emulator（第一代）安装报错/无法安装 
     
-    Microsoft官方网站中给出的VS2019安装方法不成功，VS2019稳定性较差，经本人尝试，（在满足以下条件时）改为==VS2017==即可安装。
+    Microsoft官方网站中给出的VS2019安装方法不成功，VS2019稳定性较差，经本人尝试，改用***VS2017***即可成功安装。
+    
+    同时需要系统满足以下条件，否则安装时会报错：
   * 系统上已启用“Hyper-V”功能（在控制面板启用)
   * 在 BIOS 中，必须支持且启用以下功能：硬件协助的虚拟化、二级地址转换 (SLAT)、基于硬件的数据执行保护 (DEP)
   * VS2017中已安装UWP与C++的工作负载
+
+* 2020/02/09 Unity Build Settings Platform 转为 UWP 时报错
+  * 在UnityHub中下载对应版本的Unity的.NET模块
+  * File -> Build Settings -> Player Settings -> 将Allow 'unsafe' code打上勾
+  * [解决参考](https://blog.csdn.net/weixin_43884551/article/details/102996320)
