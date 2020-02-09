@@ -19,3 +19,4 @@
 ## 相关资料
 * [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development "hololens官方文档")
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html "markdown基础语法")
+* [hololen模拟器初步尝试](https://blog.csdn.net/Zheye666/article/details/82384085 "hololen模拟器初步尝试")
