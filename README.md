@@ -22,9 +22,9 @@
 * [hololen模拟器初步尝试案例 2020/02/09](https://blog.csdn.net/Zheye666/article/details/82384085 "hololen模拟器初步尝试")
 
 ## 问题与解决
-* HoloLens Emulator安装报错/无法安装 
+* HoloLens Emulator（第一代）安装报错/无法安装 
     
-    Microsoft官方网站中给出的VS2019安装方法稳定性较差，在MR方面VS2019性能不好，经本人尝试，（在满足以下条件时）改为**VS2017**即可安装。
+    Microsoft官方网站中给出的VS2019安装方法不成功，VS2019稳定性较差，经本人尝试，（在满足以下条件时）改为==VS2017==即可安装。
   * 系统上已启用“Hyper-V”功能（在控制面板启用)
   * 在 BIOS 中，必须支持且启用以下功能：硬件协助的虚拟化、二级地址转换 (SLAT)、基于硬件的数据执行保护 (DEP)
   * VS2017中已安装UWP与C++的工作负载
