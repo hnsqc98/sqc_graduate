@@ -19,6 +19,7 @@
 * 解决了HoloLens Emulator（第一代）无法安装的问题
 * 解决了Unity Build Settings报错的相关问题
 
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/1.png)
 ## 相关资料
 * [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
