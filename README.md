@@ -18,13 +18,19 @@
 ### 2020/02/09
 * 解决了HoloLens Emulator（第一代）无法安装的问题
 * 解决了Unity Build Settings报错的相关问题
-
+### 2020/02/11
+* 完成 Unity -> VS2017 -> HoloLens Emulator 的项目部署，将第一个项目部署到HoloLens Emulator上并成功运行。
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/1.png)
 ## 相关资料
 * [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [hololens模拟器 初步尝试案例](https://blog.csdn.net/Zheye666/article/details/82384085)
 * [通过git提交文件到github仓库](https://www.cnblogs.com/alex-415/p/6912294.html)
+  * 1. git init //初始化仓库
+  * 2. git add .(文件name) //添加文件到本地仓库
+  * 3. git commit -m "first commit" //添加文件描述信息
+  * 4. git pull origin master // 把本地仓库的变化连接到远程仓库主分支
+  * 5. git push -u origin master //把本地仓库的文件推送到远程仓库
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
 
 ## 问题与解决
