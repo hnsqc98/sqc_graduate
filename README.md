@@ -23,6 +23,8 @@
 * [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [hololens模拟器 初步尝试案例](https://blog.csdn.net/Zheye666/article/details/82384085)
+* [通过git提交文件到github仓库](https://www.cnblogs.com/alex-415/p/6912294.html)
+* [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
 
 ## 问题与解决
 * 【2020/02/09】**HoloLens Emulator（第一代）安装报错/无法安装** 
