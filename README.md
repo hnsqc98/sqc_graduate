@@ -27,16 +27,19 @@
 * 完成无USB连接的情况下，从VS2017部署应用程序至Hololens头盔（在同一局域网下）
 * 解决了部署时VS2017报错DEP0100的问题。
 ## 相关资料
-* [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
-* [hololens模拟器 初步尝试案例](https://blog.csdn.net/Zheye666/article/details/82384085)
+* [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
 * [通过git提交文件到github仓库](https://www.cnblogs.com/alex-415/p/6912294.html)
   * git init //初始化仓库
   * git add .(文件name) //添加文件到本地仓库
   * git commit -m "first commit" //添加文件描述信息
   * git pull origin master // 把本地仓库的变化连接到远程仓库主分支
   * git push -u origin master //把本地仓库的文件推送到远程仓库
-* [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
+* [Microsoft官方文档：Hololens使用指南](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
+* [Hololens模拟器应用部署：Unity->VS2017->HoloLens Emulator模拟器](https://blog.csdn.net/Zheye666/article/details/82384085)
+* [Hololens头盔应用部署](https://zhuanlan.zhihu.com/p/23672200?refer=kidscoding)
+* [Microsoft文档：Hololens应用部署问题解决](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
+* [Hololens与电脑连接：远程操控Hololens](https://www.cnblogs.com/mantgh/p/5448503.html)
 
 ## 问题与解决
 * 【2020/02/09】**HoloLens Emulator（第一代）安装报错/无法安装** 
