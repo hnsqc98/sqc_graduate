@@ -45,3 +45,8 @@
   * 在UnityHub中下载对应版本的Unity的.NET模块
   * File -> Build Settings -> Player Settings -> 将Allow 'unsafe' code打上勾
   * [解决参考](https://blog.csdn.net/weixin_43884551/article/details/102996320)
+  
+* 【2020/02/17】**在从VS至Hololens设备上部署应用时，开发者模式已打开，却报错DEP0100：请确保目标设备已启用开发人员模式。由于错误80004005，无法在某IP上获取开发人员许可证**
+  * 我了解到这是很多开发者都会遇到的问题，在一番尝试后，找到根本原因为：在原本的Hololens上曾经用过VS2015或早期的VS2017部署应用，而现在较新版本的Visual Studio部署了组件的新版本，但是较旧版本中的文件会保留在设备上，从而导致更新版本失败。 
+  * 解决方式较复杂，Microsoft官网给出了详细教程，实测解决成功
+  * 详情：[解决参考](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
