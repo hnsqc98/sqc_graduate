@@ -40,21 +40,16 @@
 * 完成 Mixed Reality Toolkit (MRTK) 插件在Unity的部署
 * 进行MR项目创作实践，调用模型以实现MR效果。
   * 第一视角
-  
-  
   <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/5.jpg"/></div>
-  
+
   <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/7.jpg"/></div>
 
   <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/8.jpg"/></div>
 
-
   * 第三视角(有点现代化办公的感觉=v=)
-  
-  
   <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/9.jpg"/></div>
 
-* 基本掌握了通过使用MRTK插件的开发方式。
+* 初步掌握了使用MRTK插件的开发方式。
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
@@ -69,6 +64,9 @@
 * [Hololens头盔应用部署](https://zhuanlan.zhihu.com/p/23672200?refer=kidscoding)
 * [Microsoft文档：Hololens应用部署问题解决](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
 * [Hololens与电脑连接：远程操控Hololens](https://www.cnblogs.com/mantgh/p/5448503.html)
+* [Microsoft文档：构建和部署MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/BuildAndDeploy.html)
+* [Microsoft文档：MRTK入门](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html)
+* [MRTK的应用部署方式](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
 
 ## 问题与解决
 * 【2020/02/09】**HoloLens Emulator（第一代）安装报错/无法安装** 
@@ -87,3 +85,7 @@
   * 我了解到这是很多开发者都会遇到的问题，在一番尝试后，找到根本原因为：在原本的Hololens上曾经用过VS2015或早期的VS2017部署应用，而现在较新版本的Visual Studio部署了组件的新版本，但是较旧版本中的文件会保留在设备上，从而导致更新版本失败。 
   * 解决方式较复杂，Microsoft官网给出了详细解决方式，实测解决成功
   * 详情：[解决参考](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
+  
+* 【2020/02/19】**使用Unity-MRTK插件时Build报错**
+  * 不在Build Settings中进行Build，而是在上方菜单栏中选择MRTK的子选项进行Build。
+  * [解决参考：三（2）中有描述](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
