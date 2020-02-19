@@ -25,7 +25,9 @@
 * 完成 Unity -> VS2017 -> HoloLens头盔的部署，将练手的项目导入Hololens头盔，并能独立启动。
 * 将Hololens头盔与电脑连接，可以在电脑端操作设备。
 * 完成无USB连接的情况下，从VS2017部署应用程序至Hololens头盔（在同一局域网下）
+<div align="center"><img width="200" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/4.png"/></div>
 * 解决了部署时VS2017报错DEP0100的问题。
+
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
