@@ -26,7 +26,11 @@
 
 
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/2.jpg)
+
+
 * 将Hololens头盔与电脑连接，可以在电脑端操作设备。
+
+
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/4.png)
 
 
