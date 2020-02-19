@@ -42,17 +42,17 @@
   * 第一视角
   
   
-  <div align="center"><img width="200" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/5.jpg"/></div>
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/5.jpg"/></div>
   
-  <div align="center"><img width="200" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/7.jpg"/></div>
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/7.jpg"/></div>
 
-  <div align="center"><img width="200" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/8.jpg"/></div>
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/8.jpg"/></div>
 
 
   * 第三视角(有点现代化办公的感觉=v=)
   
   
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/9.jpg)
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/9.jpg"/></div>
 
 * 基本掌握了通过使用MRTK插件的开发方式。
 ## 相关资料
