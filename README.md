@@ -18,14 +18,28 @@
 ### 2020/02/09
 * 解决了HoloLens Emulator（第一代）无法安装的问题
 * 解决了Unity Build Settings报错的相关问题
-
+### 2020/02/11
+* 完成 Unity -> VS2017 -> HoloLens Emulator 的项目部署，将练手的项目部署到HoloLens Emulator模拟器上并成功运行。
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/1.png)
+### 2020/02/17
+* 完成 Unity -> VS2017 -> HoloLens头盔的部署，将练手的项目导入Hololens头盔，并能独立启动。
+* 将Hololens头盔与电脑连接，可以在电脑端操作设备。
+* 完成无USB连接的情况下，从VS2017部署应用程序至Hololens头盔（在同一局域网下）
+* 解决了部署时VS2017报错DEP0100的问题。
 ## 相关资料
-* [hololens官方文档————Microsoft官方](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
-* [hololens模拟器 初步尝试案例](https://blog.csdn.net/Zheye666/article/details/82384085)
-* [通过git提交文件到github仓库](https://www.cnblogs.com/alex-415/p/6912294.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
+* [通过git提交文件到github仓库](https://www.cnblogs.com/alex-415/p/6912294.html)
+  * git init //初始化仓库
+  * git add .(文件name) //添加文件到本地仓库
+  * git commit -m "first commit" //添加文件描述信息
+  * git pull origin master // 把本地仓库的变化连接到远程仓库主分支
+  * git push -u origin master //把本地仓库的文件推送到远程仓库
+* [Microsoft官方文档：Hololens使用指南](https://docs.microsoft.com/zh-cn/windows/mixed-reality/development)
+* [Hololens模拟器应用部署：Unity->VS2017->HoloLens Emulator模拟器](https://blog.csdn.net/Zheye666/article/details/82384085)
+* [Hololens头盔应用部署](https://zhuanlan.zhihu.com/p/23672200?refer=kidscoding)
+* [Microsoft文档：Hololens应用部署问题解决](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
+* [Hololens与电脑连接：远程操控Hololens](https://www.cnblogs.com/mantgh/p/5448503.html)
 
 ## 问题与解决
 * 【2020/02/09】**HoloLens Emulator（第一代）安装报错/无法安装** 
@@ -39,3 +53,8 @@
   * 在UnityHub中下载对应版本的Unity的.NET模块
   * File -> Build Settings -> Player Settings -> 将Allow 'unsafe' code打上勾
   * [解决参考](https://blog.csdn.net/weixin_43884551/article/details/102996320)
+  
+* 【2020/02/17】**在从VS至Hololens设备上部署应用时，开发者模式已打开，却报错DEP0100：请确保目标设备已启用开发人员模式。由于错误80004005，无法在某IP上获取开发人员许可证**
+  * 我了解到这是很多开发者都会遇到的问题，在一番尝试后，找到根本原因为：在原本的Hololens上曾经用过VS2015或早期的VS2017部署应用，而现在较新版本的Visual Studio部署了组件的新版本，但是较旧版本中的文件会保留在设备上，从而导致更新版本失败。 
+  * 解决方式较复杂，Microsoft官网给出了详细解决方式，实测解决成功
+  * 详情：[解决参考](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
