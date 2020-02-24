@@ -52,6 +52,8 @@
   <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/9.jpg"/></div>
 
 * 初步掌握了使用MRTK插件的开发方式。
+### 2020/02/24
+* 整理毕业设计所需参考的相关论文，再次明确开发目的，初拟论文大纲。
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
@@ -91,3 +93,10 @@
 * 【2020/02/19】**使用Unity-MRTK插件时Build报错**
   * 不在Build Settings中进行Build，而是在上方菜单栏中选择MRTK的子选项进行Build。
   * [解决参考：三（2）中有描述](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
+  
+## 主要参考文献
+* [1] G. Tian-Han, T. Qiao-Yu and Z. Shuo, "The Virtual Museum Based on HoloLens and Vuforia," 2018 4th Annual International Conference on Network and Information Systems for Computers (ICNISC), Wuhan, China, 2018, pp. 382-386.
+* [2] S. Sirilak and P. Muneesawang, "A New Procedure for Advancing Telemedicine Using the HoloLens," in IEEE Access, vol. 6, pp. 60224-60233, 2018.
+* [3] F. Garzotto, E. Torelli, F. Vona and B. Aruanno, "HoloLearn: Learning through Mixed Reality for People with Cognitive Disability,"  2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Taichung, Taiwan, 2018, pp. 189-190.
+* [4] A. Adjorlu, E. R. Høeg, L. Mangano and S. Serafin, "Daily Living Skills Training in Virtual Reality to Help Children with Autism Spectrum Disorder in a Real Shopping Scenario," 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), Nantes, 2017, pp. 294-302.
+* [5] B. Munsinger, G. White and J. Quarles, "The Usability of the Microsoft HoloLens for an Augmented Reality Game to Teach Elementary School Children," 2019 11th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games), Vienna, Austria, 2019, pp. 1-4
