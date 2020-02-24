@@ -20,12 +20,40 @@
 * 解决了Unity Build Settings报错的相关问题
 ### 2020/02/11
 * 完成 Unity -> VS2017 -> HoloLens Emulator 的项目部署，将练手的项目部署到HoloLens Emulator模拟器上并成功运行。
+
+
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/1.png)
 ### 2020/02/17
 * 完成 Unity -> VS2017 -> HoloLens头盔的部署，将练手的项目导入Hololens头盔，并能独立启动。
-* 将Hololens头盔与电脑连接，可以在电脑端操作设备。
+
+
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/2.jpg)
+
+
+* 将Hololens头盔与电脑连接，可以在电脑端操作设备，包括拍照、录像等操作。
+
+
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/4.png)
+
+
 * 完成无USB连接的情况下，从VS2017部署应用程序至Hololens头盔（在同一局域网下）
 * 解决了部署时VS2017报错DEP0100的问题。
+### 2020/02/19
+* 完成 Mixed Reality Toolkit (MRTK) 插件在Unity的部署
+* 进行MR项目创作实践，调用模型以实现MR效果。
+  * 第一视角
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/5.jpg"/></div>
+
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/7.jpg"/></div>
+
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/8.jpg"/></div>
+
+  * 第三视角(有点现代化办公的感觉=v=)
+  <div align="center"><img width="500" height="auto" src="https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/9.jpg"/></div>
+
+* 初步掌握了使用MRTK插件的开发方式。
+### 2020/02/24
+* 整理毕业设计所需参考的相关论文，再次明确开发目的，初拟论文大纲。
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
@@ -40,6 +68,9 @@
 * [Hololens头盔应用部署](https://zhuanlan.zhihu.com/p/23672200?refer=kidscoding)
 * [Microsoft文档：Hololens应用部署问题解决](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
 * [Hololens与电脑连接：远程操控Hololens](https://www.cnblogs.com/mantgh/p/5448503.html)
+* [Microsoft文档：构建和部署MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/BuildAndDeploy.html)
+* [Microsoft文档：MRTK入门](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html)
+* [MRTK的应用部署方式](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
 
 ## 问题与解决
 * 【2020/02/09】**HoloLens Emulator（第一代）安装报错/无法安装** 
@@ -58,3 +89,44 @@
   * 我了解到这是很多开发者都会遇到的问题，在一番尝试后，找到根本原因为：在原本的Hololens上曾经用过VS2015或早期的VS2017部署应用，而现在较新版本的Visual Studio部署了组件的新版本，但是较旧版本中的文件会保留在设备上，从而导致更新版本失败。 
   * 解决方式较复杂，Microsoft官网给出了详细解决方式，实测解决成功
   * 详情：[解决参考](https://docs.microsoft.com/zh-cn/hololens/hololens-known-issues)
+  
+* 【2020/02/19】**使用Unity-MRTK插件时Build报错**
+  * 不在Build Settings中进行Build，而是在上方菜单栏中选择MRTK的子选项进行Build。
+  * [解决参考：三（2）中有描述](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
+  
+## 主要参考文献
+* [1] G. Tian-Han, T. Qiao-Yu and Z. Shuo, "The Virtual Museum Based on HoloLens and Vuforia," 2018 4th Annual International Conference on Network and Information Systems for Computers (ICNISC), Wuhan, China, 2018, pp. 382-386.
+* [2] S. Sirilak and P. Muneesawang, "A New Procedure for Advancing Telemedicine Using the HoloLens," in IEEE Access, vol. 6, pp. 60224-60233, 2018.
+* [3] F. Garzotto, E. Torelli, F. Vona and B. Aruanno, "HoloLearn: Learning through Mixed Reality for People with Cognitive Disability,"  2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Taichung, Taiwan, 2018, pp. 189-190.
+* [4] A. Adjorlu, E. R. Høeg, L. Mangano and S. Serafin, "Daily Living Skills Training in Virtual Reality to Help Children with Autism Spectrum Disorder in a Real Shopping Scenario," 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), Nantes, 2017, pp. 294-302.
+* [5] B. Munsinger, G. White and J. Quarles, "The Usability of the Microsoft HoloLens for an Augmented Reality Game to Teach Elementary School Children," 2019 11th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games), Vienna, Austria, 2019, pp. 1-4
+
+## 备注
+若您在阅读时，Github无法加载图片或图片不显示，可使用以下方式：
+* 在Mac终端输入
+```python
+sudo vi /etc/hosts
+```
+* 输入密码后，点击`i`键，进入Insert模式，将下面内容拷贝进去。
+```python
+# GitHub Start
+192.30.253.112    github.com
+192.30.253.119    gist.github.com
+199.232.28.133    assets-cdn.github.com
+199.232.28.133    raw.githubusercontent.com
+199.232.28.133    gist.githubusercontent.com
+199.232.28.133    cloud.githubusercontent.com
+199.232.28.133    camo.githubusercontent.com
+199.232.28.133    avatars0.githubusercontent.com
+199.232.28.133    avatars1.githubusercontent.com
+199.232.28.133    avatars2.githubusercontent.com
+199.232.28.133    avatars3.githubusercontent.com
+199.232.28.133    avatars4.githubusercontent.com
+199.232.28.133    avatars5.githubusercontent.com
+199.232.28.133    avatars6.githubusercontent.com
+199.232.28.133    avatars7.githubusercontent.com
+199.232.28.133    avatars8.githubusercontent.com
+ # GitHub End
+```
+* 点击`esc`键，然后输入`:wq`保存退出即可。
+* 刷新Github，图片即可正常加载。
