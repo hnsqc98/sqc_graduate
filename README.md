@@ -100,3 +100,33 @@
 * [3] F. Garzotto, E. Torelli, F. Vona and B. Aruanno, "HoloLearn: Learning through Mixed Reality for People with Cognitive Disability,"  2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), Taichung, Taiwan, 2018, pp. 189-190.
 * [4] A. Adjorlu, E. R. Høeg, L. Mangano and S. Serafin, "Daily Living Skills Training in Virtual Reality to Help Children with Autism Spectrum Disorder in a Real Shopping Scenario," 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), Nantes, 2017, pp. 294-302.
 * [5] B. Munsinger, G. White and J. Quarles, "The Usability of the Microsoft HoloLens for an Augmented Reality Game to Teach Elementary School Children," 2019 11th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games), Vienna, Austria, 2019, pp. 1-4
+
+## 备注
+若您在阅读时，Github无法加载图片或图片不显示，可使用以下方式：
+* 在Mac终端输入
+```python
+sudo vi /etc/hosts
+```
+* 输入密码后，点击`i`键，进入Insert模式，将下面内容拷贝进去。
+```python
+# GitHub Start
+192.30.253.112    github.com
+192.30.253.119    gist.github.com
+199.232.28.133    assets-cdn.github.com
+199.232.28.133    raw.githubusercontent.com
+199.232.28.133    gist.githubusercontent.com
+199.232.28.133    cloud.githubusercontent.com
+199.232.28.133    camo.githubusercontent.com
+199.232.28.133    avatars0.githubusercontent.com
+199.232.28.133    avatars1.githubusercontent.com
+199.232.28.133    avatars2.githubusercontent.com
+199.232.28.133    avatars3.githubusercontent.com
+199.232.28.133    avatars4.githubusercontent.com
+199.232.28.133    avatars5.githubusercontent.com
+199.232.28.133    avatars6.githubusercontent.com
+199.232.28.133    avatars7.githubusercontent.com
+199.232.28.133    avatars8.githubusercontent.com
+ # GitHub End
+```
+* 点击`esc`键，然后输入`:wq`保存退出即可。
+* 刷新Github，图片即可正常加载。
