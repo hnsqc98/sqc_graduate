@@ -1,5 +1,6 @@
 # README
-## 友情提示
+This repository is build for ShenQichuan's graduation project ———— Implementation of interventional application of children’s autism spectrum disorder based on Hololens.
+## Tips
 若您在阅读本文时，Github无法加载图片或图片不显示，可使用以下方式：
 * 在Mac终端输入
 ```python
