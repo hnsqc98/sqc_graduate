@@ -84,6 +84,12 @@ sudo vi /etc/hosts
 * 初步掌握了使用MRTK插件的开发方式。
 ### 2020/02/24
 * 整理毕业设计所需参考的相关论文，再次明确开发目的，初拟论文大纲。
+### 2020/03/03
+* 近段时间在尝试空中绘画功能的开发，找教程以及尝试自己解决各种报错和版本不匹配问题。
+* 翻译了一篇英文文献《HoloLearn：Learning through Mixed Reality for People with Cognitive Disability》，主要讲的是一款Hololens应用“HoloLearn”，针对的用户群体是认知障碍（CD）患者，目的是通过MR教他们一些日常自主生活的能力。其中孤独谱系障碍是认知障碍的一种，并且论文是“2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)”会议刊物上的，这篇论文讲的应用程序“HoloLearn"对我的毕设参考价值较大。开发团队指出Hololens对于这类患者的治疗辅助应用程序非常少，所以这也是一个可以深入的点，鼓励更多的开发者去尝试，这么说我的毕设也有挺大的价值。
+* 下面放一下原文和翻译
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/re1.png)
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/trans1.png)
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
