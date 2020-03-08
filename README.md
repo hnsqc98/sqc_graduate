@@ -2,6 +2,7 @@
 This repository is built for ShenQichuan's graduation project ———— Implementation of interventional application of children’s autism spectrum disorder based on Hololens.
 ## Tips
 若您在阅读本文时，Github无法加载图片或图片不显示，可使用hosts加速的方式：
+* 若是Windows，则用记事本打开`C:\Windows\System32\drivers\etc\hosts`,在最下面将上面的代码复制进去即可。
 * 在Mac终端输入
 ```python
 sudo vi /etc/hosts
@@ -110,16 +111,16 @@ sudo vi /etc/hosts
   * Unity场景概览：公路、桥梁、楼房、树模型、动漫女孩（之后尝试给她添加动作，针对自闭症孩子的应用应该有一些可爱的引导人物，可以增加亲切感）
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT1.png)  
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT2.png) 
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT7.png) 
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT7.jpg) 
   * 将树的模型打上边框，在凝视（gaze）时变化颜色，并在敲击（Airtap）并拖拽（drag）时变化边框颜色
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT5.png) 
   * 随意地移动、缩放、旋转
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT6.png) 
   * 我戴着Hololens实地操作，拍摄了一个视频，沉浸感比较强，体验也是较好的，尤其是在MR环境下，下面截几张图
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT8.png)  
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT9.png)
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT10.png)
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT11.png)
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT8.jpg)  
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT9.jpg)
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT10.jpg)
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT11.jpg)
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
