@@ -86,23 +86,40 @@ sudo vi /etc/hosts
 * 整理毕业设计所需参考的相关论文，再次明确开发目的，初拟论文大纲。
 ### 2020/03/03
 * 近段时间在尝试空中绘画功能的开发，找教程以及尝试自己解决各种报错和版本不匹配问题。
-* 翻译了一篇英文文献《HoloLearn：Learning through Mixed Reality for People with Cognitive Disability》，主要讲的是一款Hololens应用“HoloLearn”，针对的用户群体是认知障碍（CD）患者，目的是通过MR教他们一些日常自主生活的能力。其中孤独谱系障碍是认知障碍的一种，并且论文是“2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)”会议刊物上的，这篇论文讲的应用程序“HoloLearn"对我的毕设参考价值较大。开发团队指出Hololens对于这类患者的治疗辅助应用程序非常少，所以这也是一个可以深入的点，鼓励更多的开发者去尝试，这么说我的毕设也有挺大的价值。
+* 粗翻了一篇英文文献《HoloLearn：Learning through Mixed Reality for People with Cognitive Disability》，主要讲的是一款Hololens应用“HoloLearn”，针对的用户群体是认知障碍（CD）患者，目的是通过MR教他们一些日常自主生活的能力。其中孤独谱系障碍是认知障碍的一种，并且论文是“2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)”会议刊物上的，这篇论文讲的应用程序“HoloLearn"对我的毕设参考价值较大。开发团队指出Hololens对于这类患者的治疗辅助应用程序非常少，所以这也是一个可以深入的点，鼓励更多的开发者去尝试，这么说我的毕设也有挺大的价值。
 * 文献翻译已上传至translation文件夹
 * 下面放一下原文
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/re1.png)
 * 下面放一下翻译（格式调成匹配原文的了）
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/trans1.png)
-### 2020/03/07
-* 应用程序推进
 ### 2020/03/08
-* 开发工作非常非常非常非常非常复杂
+* 本周开发工作复杂，工程量巨大，成果较多。
+  * 三分之一的时间在翻译论文（成果在上面已经提及）
+  * 三分之一的时间在寻找空中绘画的开发方式、与版本报错作斗争
+  * 三分之一的时间应用已掌握的技能和开发方式，自主开发了一个初具成效的Hololens应用《PlantTrees》（本毕设第一个应用功能）
 * （空中绘画功能开发的）主要问题来源于
   * 版本的无限不匹配，微软在2018年将HTK插件全面升级为了MRKT插件，导致大量之前的模型以及功能无法使用，且缺失文件
   * 开发工具与VS2017版本不匹配，而VS2019在MR上会报错导致无法更换版本
   * HTK插件资料和教程、源码都已被微软删除，找不到匹配的开发源
   * MRTK的教程过于复杂，看了几天仍然有报错问题出现
   * 缺少MRTK的绘画开发教程，自己摸索巨困难，只有HTK的模型和教程，但HTK已经用不了了被淘汰了
-  * 这个功能独自开发的工作量实在是太大了
+  * 总之仍在找方法，调错误的过程中
+* 关于这周做出来的Hololens应用《PlantTrees》
+  * 灵感来源于翻译的论文，应用的目的是激发自闭症孩子的兴趣以及好奇心，适当增强自闭症孩子的动手能力
+  * 规则：将左边的树模型拖动至画面的任意位置，任意地放大、缩小、旋转它，直到你觉得合理为止！
+  * Unity场景概览：公路、桥梁、楼房、树模型、动漫女孩（之后尝试给她添加动作，针对自闭症孩子的应用应该有一些可爱的引导人物，可以增加亲切感）
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT1.png)  
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT2.png) 
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT7.png) 
+  * 将树的模型打上边框，在凝视（gaze）时变化颜色，并在敲击（Airtap）并拖拽（drag）时变化边框颜色
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT5.png) 
+  * 随意地移动、缩放、旋转
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT6.png) 
+  * 我戴着Hololens实地操作，拍摄了一个视频，沉浸感比较强，体验也是较好的，尤其是在MR环境下，下面截几张图
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT8.png)  
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT9.png)
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT10.png)
+![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT11.png)
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
