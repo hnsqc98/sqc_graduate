@@ -112,15 +112,23 @@ sudo vi /etc/hosts
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT1.png)  
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT2.png) 
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT7.jpg) 
+
+
   * 将树的模型打上边框，在凝视（gaze）时变化颜色，并在敲击（Airtap）并拖拽（drag）时变化边框颜色
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT5.png) 
+
+
   * 随意地移动、缩放、旋转
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT6.png) 
+
+
   * 我戴着Hololens实地操作，拍摄了一个视频，沉浸感比较强，体验也是较好的，尤其是在MR环境下，下面截几张图
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT8.jpg)  
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT9.jpg)
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT10.jpg)
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT11.jpg)
+
+ * 另外就是，我本来想把这个视频传到github上，但github是不允许100M以上文件的，除非LFS，详见问题解决【2020/03/08】。
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
@@ -138,6 +146,7 @@ sudo vi /etc/hosts
 * [Microsoft文档：构建和部署MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/BuildAndDeploy.html)
 * [Microsoft文档：MRTK入门](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html)
 * [MRTK的应用部署方式](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
+* [Unity-Chan动漫人物模型](https://unity-chan.com/)
 
 ## 问题与解决
 * 【2020/02/09】**HoloLens Emulator（第一代）安装报错/无法安装** 
@@ -161,6 +170,15 @@ sudo vi /etc/hosts
   * 不在Build Settings中进行Build，而是在上方菜单栏中选择MRTK的子选项进行Build。
   * [解决参考：三（2）中有描述](https://blog.csdn.net/JiangCoolguy/article/details/94549643)
   
+* 【2020/03/08】**在github上面push100M以上大小文件时报错**
+  * github上除非用LFS不然时不允许上传100M以上文件的（以前还真不知道，第一次踩这个坑，可麻烦死我了）
+  * 比较MMP的是，在上传失败后必须将git回调至上传前的最后一个正确版本（记得存档），即使你已经装了LFS，也要先回调，再push，否则git的记录里有100M以上文件的git信息，之后的git就无法成功。我在多方尝试之后用了这个解决方法：[git回调解决参考](https://blog.csdn.net/weixin_42762089/article/details/94320794)，以及[git-LFS下载链接](https://git-lfs.github.com/)
+  * 另外一个办法是用BFG的Java命令直接把git里面的超过100M的文件提交记录给删光，但需要装java sdk，方法贴在这里[BFG解决参考](https://www.jianshu.com/p/4919056b33a9)，[BFG下载链接](https://rtyley.github.io/bfg-repo-cleaner/#download)
+  * 总之大文件能别传就别传了
+
+* 【2020/03/09】**git push文件太慢，甚至因为速度太慢报错停止push**
+  * 修改HOSTS文件
+  * [解决参考](https://blog.csdn.net/feixiangzaitianye/article/details/99646077?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 ## 主要参考文献
 * [1] G. Tian-Han, T. Qiao-Yu and Z. Shuo, "The Virtual Museum Based on HoloLens and Vuforia," 2018 4th Annual International Conference on Network and Information Systems for Computers (ICNISC), Wuhan, China, 2018, pp. 382-386.
 * [2] S. Sirilak and P. Muneesawang, "A New Procedure for Advancing Telemedicine Using the HoloLens," in IEEE Access, vol. 6, pp. 60224-60233, 2018.
