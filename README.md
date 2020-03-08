@@ -94,6 +94,15 @@ sudo vi /etc/hosts
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/trans1.png)
 ### 2020/03/07
 * 应用程序推进
+### 2020/03/08
+* 开发工作非常非常非常非常非常复杂
+* （空中绘画功能开发的）主要问题来源于
+  * 版本的无限不匹配，微软在2018年将HTK插件全面升级为了MRKT插件，导致大量之前的模型以及功能无法使用，且缺失文件
+  * 开发工具与VS2017版本不匹配，而VS2019在MR上会报错导致无法更换版本
+  * HTK插件资料和教程、源码都已被微软删除，找不到匹配的开发源
+  * MRTK的教程过于复杂，看了几天仍然有报错问题出现
+  * 缺少MRTK的绘画开发教程，自己摸索巨困难，只有HTK的模型和教程，但HTK已经用不了了被淘汰了
+  * 这个功能独自开发的工作量实在是太大了
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
