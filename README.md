@@ -126,9 +126,11 @@ sudo vi /etc/hosts
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT8.jpg)  
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT9.jpg)
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT10.jpg)
+  * 后面的画和花是我家的实景，可以看到，MR的虚拟、现实的融合效果还是不错的，即“混合现实”。
 ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/PT11.jpg)
 
  * 另外就是，我本来想把这个视频传到github上，但github是不允许100M以上文件的，除非LFS，详见问题解决【2020/03/08】。
+ * 再另外，更新了windows如果看不到图片的解决方法，详见本文开头的Tips。
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
