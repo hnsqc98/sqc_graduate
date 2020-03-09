@@ -2,7 +2,7 @@
 This repository is built for ShenQichuan's graduation project ———— Implementation of interventional application of children’s autism spectrum disorder based on Hololens.
 ## Tips
 若您在阅读本文时，Github无法加载图片或图片不显示，可使用hosts加速的方式：
-* 若是Windows，则用记事本打开`C:\Windows\System32\drivers\etc\hosts`,在最下面将上面的代码复制进去即可。
+* 若是Windows，则用记事本打开`C:\Windows\System32\drivers\etc\hosts`,在最下面将以下代码复制进去即可。
 * 在Mac终端输入
 ```python
 sudo vi /etc/hosts
