@@ -134,8 +134,8 @@ sudo vi /etc/hosts
      * [Unity历代版本存档](https://unity3d.com/get-unity/download/archive)
    * 因为一代Hololens不存在如二代Hololens较为丰富的手势，最终开发选用了凝视、单击、拖动三个Hololens动作
    * 将Hololens视点聚焦于颜色球上，运用单击并拖拽的动作，将颜色球移动，从而在真实环境下渲染出虚拟的线条，进而实现空中绘画的功能
- * 功能演示（GIF图）
-   * 环境平面扫描
+ * 下面是功能演示（GIF图）
+ * 环境平面扫描
    
    
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw1s.GIF)
