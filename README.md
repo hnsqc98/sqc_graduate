@@ -138,11 +138,19 @@ sudo vi /etc/hosts
    * 将Hololens视点聚焦于颜色球上，运用单击并拖拽的动作，将颜色球移动，从而在真实环境下渲染出虚拟的线条，进而实现空中绘画的功能
  * 功能演示（GIF图）
    * 环境平面扫描
+   
+   
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw1s.GIF)
    * MR绘画
+   
+   
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw2s.GIF)
+ 
+ 
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw3s.GIF)
    * MR绘画（与真实物体的接触，达到混合现实的效果）
+   
+   
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw5s.GIF)
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
