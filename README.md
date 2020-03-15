@@ -89,10 +89,6 @@ sudo vi /etc/hosts
 * 近段时间在尝试空中绘画功能的开发，找教程以及尝试自己解决各种报错和版本不匹配问题。
 * 粗翻了一篇英文文献《HoloLearn：Learning through Mixed Reality for People with Cognitive Disability》，主要讲的是一款Hololens应用“HoloLearn”，针对的用户群体是认知障碍（CD）患者，目的是通过MR教他们一些日常自主生活的能力。其中孤独谱系障碍是认知障碍的一种，并且论文是“2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)”会议刊物上的，这篇论文讲的应用程序“HoloLearn"对我的毕设参考价值较大。开发团队指出Hololens对于这类患者的治疗辅助应用程序非常少，所以这也是一个可以深入的点，鼓励更多的开发者去尝试，这么说我的毕设也有挺大的价值。
 * 文献翻译已上传至translation文件夹
-* 下面放一下原文
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/re1.png)
-* 下面放一下翻译（格式调成匹配原文的了）
-![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/trans1.png)
 ### 2020/03/08
 * 本周开发工作复杂，工程量巨大，成果较多。
   * 三分之一的时间在翻译论文（成果在上面已经提及）
@@ -133,7 +129,9 @@ sudo vi /etc/hosts
  * 再另外，更新了windows如果看不到图片的解决方法，详见本文开头的Tips。
  ### 2020/03/08
  * 本周完成了一直以来存在问题的空中绘画功能。
-   * 工作量巨大，最后用调整版本的方式解决，下了2017年版本的MRTK插件，并且重新下了一个旧版本的Unity，将Unity与插件的版本完全匹配。
+   * 最后用调整版本的方式解决，下了2017年版本的MRTK插件，并且重新下了一个旧版本的Unity，将Unity与插件的版本完全匹配。
+     * [MRTK历代版本存档](https://github.com/microsoft/MixedRealityToolkit-Unity/releases?after=2017.4.0.0-rc2)
+     * [Unity历代版本存档](https://unity3d.com/get-unity/download/archive)
    * 因为一代Hololens不存在如二代Hololens较为丰富的手势，最终开发选用了凝视、单击、拖动三个Hololens动作
    * 将Hololens视点聚焦于颜色球上，运用单击并拖拽的动作，将颜色球移动，从而在真实环境下渲染出虚拟的线条，进而实现空中绘画的功能
  * 功能演示（GIF图）
