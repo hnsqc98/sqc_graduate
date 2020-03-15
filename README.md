@@ -132,9 +132,17 @@ sudo vi /etc/hosts
  * 另外就是，我本来想把这个视频传到github上，但github是不允许100M以上文件的，除非LFS，详见问题解决【2020/03/08】。
  * 再另外，更新了windows如果看不到图片的解决方法，详见本文开头的Tips。
  ### 2020/03/08
+ * 本周完成了一直以来存在问题的空中绘画功能。
+   * 工作量巨大，最后用调整版本的方式解决，下了2017年版本的MRTK插件，并且重新下了一个旧版本的Unity，将Unity与插件的版本完全匹配。
+   * 因为一代Hololens不存在如二代Hololens较为丰富的手势，最终开发选用了凝视、单击、拖动三个Hololens动作
+   * 将Hololens视点聚焦于颜色球上，运用单击并拖拽的动作，将颜色球移动，从而在真实环境下渲染出虚拟的线条，进而实现空中绘画的功能
+ * 功能演示（GIF图）
+   * 环境平面扫描
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw1s.GIF)
+   * MR绘画
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw2s.GIF)
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw3s.GIF)
+   * MR绘画（与真实物体的接触，达到混合现实的效果）
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw5s.GIF)
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
