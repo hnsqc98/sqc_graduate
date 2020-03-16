@@ -150,6 +150,16 @@ sudo vi /etc/hosts
    
    
  ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/draw5s.GIF)
+ 
+ 
+* 现存问题
+  * 绘画功能用2017.2.1.4插件版本开发，但该插件版本与MRTK不兼容。
+  * 换言之，无法整合，将开发完成的应用打包导入新版本Unity后，无法运行。
+  * Microsoft官方文档关于2017.2.1.4版本的插件中有写`This release is specifically targeted for Unity Editor-2017.2.1p2`
+  * 即运行要求为：低版本插件配低版本Unity，或高版本插件配高版本Unity，且二者不兼容，无法打包导入
+  * Microsoft官方文档关于两代插件（HoloToolkit与MRTK）的升级描述：`由于重建了框架，因此没有从HoloToolkit到Mixed Reality Toolkit v2的直接升级路径。`
+  
+  
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
