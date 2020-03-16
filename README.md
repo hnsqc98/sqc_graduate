@@ -127,7 +127,7 @@ sudo vi /etc/hosts
 
  * 另外就是，我本来想把这个视频传到github上，但github是不允许100M以上文件的，除非LFS，详见问题解决【2020/03/08】。
  * 再另外，更新了windows如果看不到图片的解决方法，详见本文开头的Tips。
- ### 2020/03/08
+ ### 2020/03/16
  * 本周完成了一直以来存在问题的空中绘画功能。
    * 最后用调整版本的方式解决，下了2017年版本的MRTK插件，并且重新下了一个旧版本的Unity，将Unity与插件的版本完全匹配。
      * [MRTK历代版本存档](https://github.com/microsoft/MixedRealityToolkit-Unity/releases?after=2017.4.0.0-rc2)
