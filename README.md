@@ -162,16 +162,16 @@ sudo vi /etc/hosts
 ### 2020/03/22
  * 本周完成了毕设应用的框架以及主界面，Hololens应用已经可以展示了。
  * 除了搭好框架之外，还做了不少应用，并链接到传送块当中。
- * 主界面预览（分辨率是Hololens设备限制，以达最高）
+ * 主界面预览（分辨率是Hololens设备限制，已达最高）
+   * 正中间左边是我自己用PS做的LOGO及毕设内容，HOLOCARE是我给这个应用取的名字，因为是专门为自闭症患者提供混合现实辅助治疗；正中间右边是我主要用到的插件，图标也沿用官方LOGO。
+   * 主体布局为环形“传送块”，每一个传送块点击后即可进入对应的场景，目前已经有不少了。
+   * 最下面是一个控制模块，主要用途是HOME键，在任意场景中单击HOME键即可回到主界面。
    * 正面
    ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/f1.jpg)
    * 侧面
    ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/f2.jpg)
- * 功能介绍
-   * 正中间左边是我自己用PS做的LOGO及毕设内容，HOLOCARE是我给这个应用取的名字，因为是专门为自闭症患者提供混合现实辅助治疗；正中间右边是我主要用到的插件，图标也沿用官方LOGO。
-   * 主体布局为环形“传送块”，每一个传送块点击后即可进入对应的场景，目前已经有不少了。
-   * 最下面是一个控制模块，主要用途是HOME键，在任意场景中单击HOME键即可回到主界面。
-   * 每个分场景都会有一个说明板块：上面有我的LOGO，以及对这个分场景的解释说明，如何操作等等。
+ * 分界面功能介绍&场景预览
+   * 每个分场景都会有一个说明板块：上面有我的LOGO，以及对这个分场景的解释说明，如何操作等等。为了与国际接轨（专业一点），我开发的应用里都用的是英文
    * 下面是分场景预览（画画和种树之前已经有展示过了）
      * Lay The Table：是受到翻译论文的启发，与种树异曲同工
      ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/f3.jpg)
@@ -181,8 +181,19 @@ sudo vi /etc/hosts
      ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/f6.jpg)
      * MR Piano：弹钢琴 不多说
      ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/f7.jpg)
-     * My Shader Gallery：把一堆很酷的小球收集起来了，我看着酷就行
+     * My Shader Gallery：把一堆很酷的小球收集起来了，炫酷酷，看着很厉害的样子
      ![avatar](https://github.com/hnsqc98/sqc_graduate/blob/master/Picture/f8.jpg)
+     
+     
+* 另外，本周也和清晰度做了斗争，但是由于设备原因，如果不借助其他设备，只能到720P了
+* 与Hololens清晰度/摄像拍照有关的资料:
+  * [微软官方文档-创建混合现实照片和视频](https://docs.microsoft.com/zh-cn/hololens/holographic-photos-and-videos)
+  * [微软官方文档-定位照相机](https://docs.microsoft.com/zh-cn/windows/mixed-reality/locatable-camera)
+  * [微软官方文档-旁观视图](https://docs.microsoft.com/zh-cn/windows/mixed-reality/spectator-view)
+  * [微软官方操作-第三视角看混合现实](https://www.ifanr.com/787218)
+* 展示效果很打折扣，但不妨碍应用本身的质量，也可以用超分的方法，但那是后话了
+* 下周就是专心准备中期检查，内容已经非常充实了，进度也比较快，思考要把现有的内容怎么样呈现出来会更好一些
+
 ## 相关资料
 * [markdown书写的基础语法](https://www.cnblogs.com/nickchen121/p/10821946.html)
 * [B站-github使用启蒙](https://www.bilibili.com/video/av33238577?from=search&seid=7374412873796033945)
